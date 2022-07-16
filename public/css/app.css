@@ -1,4 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+@import "https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100;600&family=Open+Sans&display=swap";
+
+* {
+    font-family: 'koulen';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
@@ -6,20 +14,30 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
- }
+.title, .type {
+  font-size: 20px;
+}
+
+.id-div {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  width: 400px;
+  margin-left: 20px;
+}
 
  .nav-link {
   color: white;
+  font-size: 18px;
  }
 
  .my-container {
   padding: 20px;
   margin: auto;
-  width:60%;
+  width: 80%;
  }
 
  .comic-row {

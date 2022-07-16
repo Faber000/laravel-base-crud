@@ -28,10 +28,12 @@
         <div class="my-container">
             @foreach ($comics as $comic)
                 <div class="comic-row">
-                    <div class="data d-flex align-items-center">
-                        <div>{{$comic->id}}</div>
+                    <div class="d-flex align-items-center">
+                        <div class="id-div">{{$comic->id}}</div>
                         <div><img width="100" src="{{$comic->thumb}}"></div>
-                        <div>{{$comic->title}}</div>
+                        <div class="title">{{$comic->title}}</div>
+                    </div>
+                    <div class="type">
                         <div>{{$comic->type}}</div>
                     </div>
                     <div class="buttons">
